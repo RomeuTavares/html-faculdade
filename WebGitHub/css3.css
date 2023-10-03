@@ -1,0 +1,82 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url(Imagens/curriculo.jpeg);
+    float:left
+  }
+  h1 {
+    text-align: center;
+  }
+  .topo{
+    text-align: center;
+  }
+  
+  .wrapper{
+    position: fixed;
+   float: left;
+    transform: translate(-50%, -50%);
+  }
+  
+  .link_wrapper{
+    position: fixed;
+  }
+  .normal{
+    color:black
+  }
+  li{
+    float:left;
+    border-right:5px;
+  }
+  a{
+    float: left;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    background: rgba(36, 57, 82, 0.753);
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid #201777;
+    transition: all .35s;
+  }
+  
+  .icon{
+    width: 50px;
+    height: 50px;
+    border: 10px solid transparent;
+    position: fixed;
+    transform: rotate(45deg);
+    right: 0;
+    top: 0;
+    transition: all .35s;
+  }
+  
+  .icon svg{
+    width: 30px;
+        transform: rotate(-45deg);
+    fill: #2ecc71;
+    transition: all .35s;
+  }
+  
+  a:hover{
+    width: 200px;
+    border: 3px solid #2ecc71;
+    background: transparent;
+    color: #2ecc71;
+  }
+  
+  a:hover + .icon{
+    border: 3px solid #2ecc71;
+    right: -25%;
+  }
+
+  .rodape{
+    background-color: rgba(36, 57, 82, 0.753);
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    float:left;
+  }
